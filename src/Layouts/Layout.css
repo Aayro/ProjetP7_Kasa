@@ -1,0 +1,25 @@
+/* Contenu */
+.layout {
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;
+    margin: auto;
+    height: auto;
+    min-width: 1440px;
+}
+
+main {
+    height: calc(100% - 68px);
+    width: 100%;
+    margin: auto;
+    margin-top: 3%;
+
+}
+
+@media screen and (max-width: 1490px) {
+    .layout {
+        margin: 0px 20px;
+    }
+
+
+}
