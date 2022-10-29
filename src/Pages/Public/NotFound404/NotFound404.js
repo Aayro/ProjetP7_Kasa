@@ -2,7 +2,6 @@ import React from "react";
 import { NavLink } from 'react-router-dom';
 
 import "@/Pages/Public/NotFound404/NotFound404.css";
-import Header from '@/Layouts/Header/Header';
 
 const Erreur404 = () => {
     return (
