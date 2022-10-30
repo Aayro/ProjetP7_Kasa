@@ -24,3 +24,22 @@
     font-size: 18px;
     line-height: 50.67px;
 }
+
+
+@media screen and (max-width: 1240px) {
+    .Erreur404{
+        height: 100vh;
+    }
+    .error_404{
+        font-size: 96px;
+        line-height: 136.9px;
+    }
+    .p_404{
+     font-size: 18px;
+     line-height: 25.67px;
+    }
+    .navlink_404{
+        font-size: 14px;
+        line-height: 19.96px;
+    }
+}

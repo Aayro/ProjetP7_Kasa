@@ -12,7 +12,7 @@ import DropDown from "@/Components/DropDown/DropDown";
 // fonction de la page Apropos
 const Apropos = () => {// export de la page Apropos pour l'appeler dans le router 
     return (
-        <section className='a_propos'>
+        <section className='APropos'>
 
             <Hero image={HeroImg} texte="" />
             <ul>
