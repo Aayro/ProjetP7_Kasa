@@ -1,5 +1,6 @@
 .logement {
     max-width: 1240px;
+    width: 100vh;
     margin: 0 auto;
 }
 
@@ -51,6 +52,11 @@
 
 
 @media screen and (max-width: 600px) {
+
+    .logement {
+        width: 100%;
+    }
+
     .details_container {
         flex-direction: column;
         justify-content: space-between;
@@ -70,7 +76,6 @@
     .accordeon_container {
         flex-direction: column;
         gap: 20px;
-
     }
 
     .about_title {
