@@ -20,22 +20,13 @@
 
 /* Buttons */
 
-.slideshowDots {
-    text-align: center;
-}
-
-.slideshowDot {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin: 15px 7px 0px;
-    background-color: #c4c4c4;
-}
-
-.slideshowDot.active {
-    background-color: #ff6060;
+.index_number {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    left: 50%;
 }
 
 .arrowLeft {
@@ -72,6 +63,10 @@
     .slideshowDot {
         height: 10px;
         width: 10px;
+    }
+
+    .index_number {
+        display: none
     }
 
 }

@@ -39,20 +39,13 @@ const Gallery = ({ pictures }) => {
 
             </div>
             <img className="arrowRight" src={ArrowRight} alt="flèche droite" onClick={() => nextImage()} />
-            <div className="slideshowDots">
-                {pictures.map((_, idx) => (
-                    <div
-                        key={idx}
-                        className={`slideshowDot${index === idx ? " active" : ""}`}
-                        onClick={() => {
-                            setIndex(idx);
-                        }}
-                    ></div>
-                ))}
+            <div className="index_number">
+                <div>
+                    {pictures.length > 1 ? index + 1 + "/" + pictures.length : (" ")}
+                </div>
             </div>
         </div>
     )
-
 }
 
 export default Gallery;
